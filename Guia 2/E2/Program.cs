@@ -6,7 +6,11 @@ namespace E2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string espec;
+            Console.WriteLine("ingrese la Especialidad del medico que esta buscando ");
+            espec= Console.ReadLine(); 
+            Clinica clinica= new Clinica();
+            Console.WriteLine("mensaje del sistema: "+ clinica.Informacion(espec));
         }
     }
 }
