@@ -10,5 +10,13 @@ namespace E5
             this.nombre = nombre;
             this.precio = precio;
         }
+        public string getNombre()
+        {
+            return nombre;
+        }
+        public int getPrecio()
+        {
+            return precio;
+        }
     }
 }

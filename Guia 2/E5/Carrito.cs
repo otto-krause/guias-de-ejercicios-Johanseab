@@ -4,15 +4,24 @@ namespace E5
 {
     public class Carrito
     {
-        List<Producto> Productos = new List<Producto>();
+        List<Producto> productos = new List<Producto>();
         public Carrito()
         {
-            Producto Arroz = new Producto("Dos Hermanos",45);
-            Productos.Add(Arroz);
-            Producto Fideos = new Producto("Lucchetti",50);
-            Productos.Add(Fideos);
-            Producto Pan = new Producto("Bimbo",70);
-            Productos.Add(Pan);
+            Producto producto1 = new Producto("Arroz Dos Hermanos",45);
+            productos.Add(producto1);
+            Producto producto2= new Producto("Fideos Lucchetti",64);
+            productos.Add(producto2);
+        }
+        public int precio(string producto)
+        {
+            foreach (var i in productos)
+            {
+                if(producto == i.getNombre())
+                {
+                    return i.getPrecio();
+                }
+            }
+            return 0;
         }
     }
 
