@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace E2
 {
@@ -6,7 +7,11 @@ namespace E2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+          string producto = "Fideos Marolio";
+          int cantidadDelProducto = 2;
+
+          Supermercado compra=new Supermercado(producto, cantidadDelProducto);
+          Console.WriteLine("Las ganancias de el dia son: "+compra.Ganancias());  
         }
     }
 }
