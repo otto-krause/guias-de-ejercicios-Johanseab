@@ -6,7 +6,14 @@ namespace E4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+          string especialidadDeseada;
+          Console.WriteLine("Ingrese la espcialidad del medico del cual quiere sacar turno(Pediatra o Cardiologo)"); 
+          
+          especialidadDeseada = Console.ReadLine(); 
+
+          Clinica pedido = new Clinica(especialidadDeseada);
+
+          Console.WriteLine(pedido.DisponibilidadDelMedico()); 
         }
     }
 }
