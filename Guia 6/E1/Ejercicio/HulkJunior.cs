@@ -16,7 +16,7 @@ namespace Ejercicio
             this.color=color;
             tristeza+=4;
         }
-        public override void comerPizza()=>color="Amarillo patito fluorecente de las montañas de himalaya amazonico";
+        public override void comerPizza()=>color="Amarillo patito fluorescente de las montañas del himalaya amazonico";
         public override void llorandoPorRobocop()
         {
             if(tristeza>7)tristeza-=8;
