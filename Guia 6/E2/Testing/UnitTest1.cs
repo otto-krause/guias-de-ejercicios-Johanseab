@@ -29,13 +29,13 @@ namespace Testing
         [Test]
         public void TestSaberSiTodasLasRecetasSonDeGordo()
         {
-            Assert.AreEqual(false,receta.All(receta = receta.esDeGordo()));
+            Assert.AreEqual(false,receta.All(receta => receta.esDeGordo()));
         }
 
         [Test]
         public void TestSaberSiAlgunaRecetaEsRapida()
         {
-            Assert.AreEqual(true,receta.Any(receta=receta.esRapida()));
+            Assert.AreEqual(true,receta.Any(receta=>receta.esRapida()));
         }
 
         [Test]
