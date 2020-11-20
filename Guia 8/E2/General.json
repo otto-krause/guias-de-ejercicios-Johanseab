@@ -1,0 +1,110 @@
+{
+    "locales":[
+        {
+            "coordenadas":{
+                "latitud": -34.6280805,
+                "longitud": -58.368849
+            },
+            "nombre": "Sucursal Parque Lezama",
+            "direccion": "Av. Martín García 270",
+            "empleados":[
+                {
+                    "puesto": "cajero",
+                    "asignadoA": "juan lopez"
+                },
+                {
+                    "puesto": "supervisora",
+                    "asignadoA": "maria lopez"
+                }
+            ]
+        },
+        {
+            "coordenadas":{
+                "latitud": -34.5973916,
+                "longitud": -58.3942779
+            },
+            "nombre": "Sucursal Santa Fe y Callao",
+            "direccion": "Av. Santa Fe 1780",
+            "empleados":[
+                {
+                    "puesto": "cajera",
+                    "asignadoA": "juana perez"
+                },
+                {
+                    "puesto": "supervisor",
+                    "asignadoA": "mario martinez"
+                },
+                {
+                    "puesto": "limpieza",
+                    "asignadoA": ""
+                }
+            ]
+        },
+        {
+            "coordenadas":{
+                "latitud": -33.5973943,
+                "longitud": 48.3922723
+            },
+            "nombre": "Sucursal Mexico y Paseo Colon",
+            "direccion": "Av. Paseo Colon 2345",
+            "empleados":[
+                {
+                    "puesto": "Limpieza",
+                    "asignadoA": ""
+                },
+                {
+                    "puesto": "supervisor",
+                    "asignadoA": "stuwart aguilar"
+                },
+                {
+                    "puesto": "cajera",
+                    "asignadoA": ""
+                }
+            ]
+        },
+        {
+            "coordenadas":{
+                "latitud":  12.5937126,
+                "longitud": -11.5997246
+            },
+            "nombre": "Sucursal Chile y Paseo Colon",
+            "direccion": "Av. Paseo Colon 2462",
+            "empleados":[
+                {
+                    "puesto": "cajera",
+                    "asignadoA": "pedro Aguilar"
+                },
+                {
+                    "puesto": "supervisor",
+                    "asignadoA": "Oliver Barzola"
+                },
+                {
+                    "puesto": "limpieza",
+                    "asignadoA": "Patricia Ramirez"
+                }
+            ]
+        },
+        {
+            "coordenadas":{
+                "latitud":  72.9036192,
+                "longitud": -25.9365781
+            },
+            "nombre": "Sucursal Moreno y Paseo Colon",
+            "direccion": "Av. Paseo Colon 2645",
+            "empleados":[
+                {
+                    "puesto": "cajera",
+                    "asignadoA": ""
+                },
+                {
+                    "puesto": "supervisor",
+                    "asignadoA": ""
+                },
+                {
+                    "puesto": "limpieza",
+                    "asignadoA": ""
+                }
+            ]
+        }
+    ]
+}
